@@ -247,7 +247,7 @@ RUN mkdir -p /opt/composer/v1 && mkdir -p /opt/composer/v2
 RUN bash /opt/composer/helpers/v1/build
 RUN bash /opt/composer/helpers/v2/build
 RUN bash /opt/go_modules/helpers/build
-RUN bash /opt/hex/helpers/build /opt/hex
+RUN bash /opt/hex/helpers/build
 RUN bash /opt/npm_and_yarn/helpers/build /opt/npm_and_yarn
 RUN bash /opt/python/helpers/build /opt/python
 RUN bash /opt/terraform/helpers/build /opt/terraform
